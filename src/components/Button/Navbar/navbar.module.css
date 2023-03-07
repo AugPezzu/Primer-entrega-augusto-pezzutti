@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: end;
+  
+}
+
+.listnav {
+    background-color: pink;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 30px;
+    margin: 0px 20px;
+}
+
+.nav-color {
+    background-color: white;
+}
