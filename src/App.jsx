@@ -2,13 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Button from './components/Button'
-import Navbar from './components/Button/Navbar'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
    <div className='Container'>
     <Navbar />
-   
    </div>
   )
 }

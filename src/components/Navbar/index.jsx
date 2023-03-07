@@ -5,16 +5,18 @@ import { CgShoppingCart } from 'react-icons/cg'
 
 const Navbar = () => {
   return (
-    <navbar>
-    <div className='logo'>
-        <img src='./img/logo-main.png' alt='logo de la marca'  />
+    <navbar className={styles.container}>
+    <div className={styles.logo}>
+        <img src='.logomain.png' />
     </div>
-    <ul className={styles.container}>
+    <ul className={styles.containerul}>
         <li className={styles.listnav}>Home</li>
         <li className={styles.listnav}>Productos</li>
         <li className={styles.listnav}>Nosotros</li>
-        <CgShoppingCart />
     </ul>
+    <div className={styles.containercart}>
+    <p><CgShoppingCart />4</p>
+    </div>
     
     </navbar>
   )

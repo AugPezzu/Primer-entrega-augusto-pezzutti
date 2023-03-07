@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between; 
+    background-color: black;
+}
+
+.containerul {
+    display: flex;
+    justify-content: end; 
+}
+
+.listnav {
+    background-color: pink;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 30px;
+    margin: 0px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nav-color {
+    background-color: white;
+}
+
+.containercart {
+    display: flex;
+    justify-content: end; 
+    color: pink;
+    margin: 0px 50px 0px 0px;
+    font-size: 25px
+}
